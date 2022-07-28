@@ -81,6 +81,7 @@ app.get('/products',(req,res)=>{
     })
 })
 
+
  //404 page 
  app.get('*',(req,res)=>{
     res.render('404',{
